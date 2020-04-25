@@ -65,9 +65,21 @@ canvas {
 #particles-js {
     width: 100%;
     height: 100%;
-    background-color: #000000;
-    background-image: url('');
+    position: relative;
+}
+
+#background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /*background-image: url('../images/abstract-architecture-background-buildings-370717.jpg'); -------  ako cemo ovu koristit treba stavit background-position 50% 50% */
+    /*background-image: url('../images/aerial-architectural-design-architecture-buildings-373912.jpg'); ako se ne odlucimo za nijednu, ovu stavit ili nesto na ovaj fazon haha */
+    /* background-image: url('../images/apple-coffee-computer-desk-356056.jpg'); background-position 80% 80%...treba malo izmijenit sliku na ps, umjesto Start Engine, staviti LOGO ABOCA */
+    /*background-image: url('../images/apple-computer-desk-electronics-374857.jpg');  treba nesto skontat ako cemo ovu, *bg position 50% 50%*/
+    /*background-image: url('../images/grayscale-photo-of-computer-laptop-near-white-notebook-and-169573.jpg'); bg ps mozda na 85/90, mala razlika i da stavimo 100 , ja bi ovdje pocevao opacity*/
+    /*background-image: url('../images/information-sign-on-shelf-251225.jpg'); najgora po meni haha i smanio bi opacity particles.js*/
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
+    opacity: 0.5;
 }
