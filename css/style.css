@@ -100,3 +100,9 @@ h1 {
     text-align: center;
     position: relative;
 }
+
+@media only screen and (max-width: 767px) {
+    img {
+        width: 350px
+    }
+}
